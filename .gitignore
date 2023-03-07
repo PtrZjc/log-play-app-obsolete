@@ -19,7 +19,9 @@
 */yarn-error.log*
 
 */target/
-*/!.mvn/wrapper/maven-wrapper.jar
+**/*.jar
+*/.gradle/*
+*/gradle/*
 */!**/src/main/**/target/
 */!**/src/test/**/target/
 
@@ -44,7 +46,7 @@
 */dist/
 */nbdist/
 */.nb-gradle/
-*/build/
+**/build/
 */!**/src/main/**/build/
 */!**/src/test/**/build/
 
@@ -54,3 +56,5 @@
 
 */.aws-sam/*
 */.idea/*
+*/tokens/*
+**/credentials.json
