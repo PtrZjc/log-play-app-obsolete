@@ -1,0 +1,200 @@
+Data,Gra,Czas,Opis gry,Solo,1-Gracz,2-Gracz,3-Gracz,4-Gracz,5-Gracz,6-Gracz,7-Gracz,Punkty-1,Punkty-2,Punkty-3,Punkty-4,Punkty-5,Punkty-6,Punkty-7,Win-1,Win-2,Win-3,Win-4,Win-5,Win-6,Win-7,Komentarz-1,Komentarz-2,Komentarz-3,Komentarz-4,Komentarz-5,Komentarz-6,Komentarz-7,ID,timestamp
+2020-02-20,7 cudów świata,,,,Ja,Ilona,Paweł od Domki,Domka Szalona,Marta Ilony,,,49,37,44,50,48,,,,,,TRUE,,,,,,,,,,,1582156800,1582156800
+2020-02-20,7 cudów świata,,,,Ja,Ilona,Paweł od Domki,Domka Szalona,Marta Ilony,,,49,40,44,54,50,,,,,,TRUE,,,,,,,,,,,1582156801,1582156800
+2020-04-12,7 cudów świata,,,,Ja,Ilona,Pioterek,,,,,60,43,53,,,,,TRUE,,,,,,,,29 pkt z zielonych,,,,,,1586649600,1586649600
+2020-04-17,Terraformacja Marsa,,,,Ja,Ilona,Łysy,Korot,,,,71,58,48,70,,,,TRUE,,,,,,,,,,,,,,1587081600,1587081600
+2020-04-19,Agricola,,,,Ja,Ilona,,,,,,38,33,,,,,,TRUE,,,,,,,,,,,,,,1587254400,1587254400
+2020-04-21,Blood Rage,,,,Ja,Korot,Łysy,,,,,143,160,64,,,,,,TRUE,,,,,,,,,,,,,1587427200,1587427200
+2020-04-23,Terraformacja Marsa,,,,Ja,Ilona,,,,,,88,86,,,,,,TRUE,,,,,,,,,,,,,,1587600000,1587600000
+2020-04-25,Agricola,,,,Ja,Ilona,Korot,,,,,42,30,35,,,,,TRUE,,,,,,,,,,,,,,1587772800,1587772800
+2020-04-26,Terraformacja Marsa,,,,Ja,Ilona,,,,,,99,95,,,,,,TRUE,,,,,,,,,,,,,,1587859200,1587859200
+2020-05-01,Race for the Galaxy,,,,Ja,Korot,,,,,,33,31,,,,,,TRUE,,,,,,,,,,,,,,1588291200,1588291200
+2020-05-01,Race for the Galaxy,,,,Ja,Korot,,,,,,37,34,,,,,,TRUE,,,,,,,,,,,,,,1588291201,1588291200
+2020-05-01,Race for the Galaxy,,,,Ja,Kofin,Ola,,,,,30,33,16,,,,,,TRUE,,,,,,,,,,,,,1588291200,1588291200
+2020-05-01,Terraformacja Marsa,,,,Ja,Ilona,Korot,,,,,80,79,73,,,,,TRUE,,,,,,,,,,,,,,1588291201,1588291200
+2020-05-06,Terraformacja Marsa,,,,Ja,Łysy,Korot,,,,,74,80,81,,,,,,,TRUE,,,,,,,,,,,,1588723200,1588723200
+2020-05-12,7 cudów Pojedynek,,Militarne,,Ja,Ilona,,,,,,69,56,,,,,,TRUE,,,,,,,,,,,,,,1589241600,1589241600
+2020-05-16,7 cudów Pojedynek,,,,Ja,Ilona,,,,,,55,55,,,,,,FALSE,TRUE,,,,,,,,,,,,,1589587200,1589587200
+2020-05-18,Terraformacja Marsa,,,,Ja,Ilona,,,,,,103,84,,,,,,TRUE,,,,,,,,,,,,,,1589760000,1589760000
+2020-05-30,Terraformacja Marsa,,,,Ja,Ilona,Łysy,,,,,91,83,73,,,,,TRUE,,,,,,,,,,,,,,1590796800,1590796800
+2020-06-12,Agricola,,,,Ja,Ilona,,,,,,48,35,,,,,,TRUE,,,,,,,,,,,,,,1591920000,1591920000
+2020-06-21,Terraformacja Marsa,,,,Ja,Ilona,Marian,,,,,75,70,70,,,,,TRUE,,,,,,,,,,,,,,1592697600,1592697600
+2020-06-25,Terraformacja Marsa,,,,Ja,Ilona,,,,,,112,81,,,,,,TRUE,,,,,,,,,,,,,,1593043200,1593043200
+2020-06-26,Terraformacja Marsa,,,,Ja,Ilona,,,,,,107,102,,,,,,TRUE,,,,,,,,,,,,,,1593129600,1593129600
+2020-07-09,Terraformacja Marsa,,,,Ja,Ilona,,,,,,79,58,,,,,,TRUE,,,,,,,,,,,,,,1594252800,1594252800
+2020-07-21,7 cudów świata,,,,Ja,Ilona,Żulian,Paweł,Mona,,,59,58,32,42,51,,,TRUE,,,,,,,,,,,,,,1595289600,1595289600
+2020-07-21,7 cudów świata,,,,Ja,Ilona,Żulian,Paweł,Mona,,,45,39,60,57,42,,,,,TRUE,,,,,,,,,,,,1595289601,1595289600
+2020-07-21,7 cudów Armada,,,,Ja,Ilona,Żulian,Paweł,Mona,,,77,65,35,54,62,,,TRUE,,,,,,,,,,,,,,1595289600,1595289600
+2020-07-31,Terraformacja Marsa,,,,Ja,Ilona,Korot,,,,,67,67,56,,,,,TRUE,TRUE,,,,,,,,,,,,,1596153600,1596153600
+2020-10-12,7 cudów Pojedynek,,,,Ja,Ilona,,,,,,49,53,,,,,,,TRUE,,,,,,,,,,,,,1602460800,1602460800
+2020-10-13,Race for the Galaxy,,,,Ja,Kofin,Łysy,Korot,,,,30,43,16,29,,,,,TRUE,,,,,,,,,,,,,1602547200,1602547200
+2020-10-13,7 cudów Pojedynek,,Naukowe,,Ja,Ilona,,,,,,14,40,,,,,,TRUE,,,,,,,,bulwers,,,,,,1602547201,1602547200
+2020-10-15,7 cudów Pojedynek,,Militarne,,Ja,Ilona,,,,,,9,19,,,,,,,TRUE,,,,,,,,,,,,,1602720000,1602720000
+2020-10-28,Race for the Galaxy,,,,Ja,Kofin,Korot,,,,,23,15,32,,,,,,,TRUE,,,,,,,,,,,,1603843200,1603843200
+2020-11-05,Race for the Galaxy,,,,Ja,Kofin,Korot,,,,,32,31,32,,,,,TRUE,,TRUE,,,,,,,,,,,,1604534400,1604534400
+2020-11-10,Brass,,,,Ja,Ilona,,,,,,184,104,,,,,,TRUE,,,,,,,,,,,,,,1604966400,1604966400
+2020-11-10,Brass,2:10,,,Ja,Ilona,,,,,,169,174,,,,,,,TRUE,,,,,,,,,,,,,1604966401,1604966400
+2020-11-10,Terraformacja Marsa,,,,Ja,Ilona,Łysy,,,,,80,59,76,,,,,TRUE,,,,,,,,,,,,,,1604966400,1604966400
+2020-11-21,Terraformacja Marsa,2:33,,,Ja,Ilona,,,,,,103,91,,,,,,TRUE,,,,,,,,,,,,,,1605916800,1605916800
+2020-11-22,Brass,2:44,,,Ja,Ilona,Kofin,Łysy,,,,122,128,93,83,,,,,TRUE,,,,,,,,,,,,,1606003200,1606003200
+2020-11-26,Brass,2:55,,,Ja,Ilona,Korot,Kofin,,,,133,109,133,113,,,,,,TRUE,,,,,,,,,,,,1606348800,1606348800
+2020-12-03,Race for the Galaxy,,,,Ja,Korot,,,,,,16,36,,,,,,,TRUE,,,,,,,,,,,,,1606953600,1606953600
+2020-12-03,Race for the Galaxy,,,,Ja,Korot,,,,,,37,40,,,,,,,TRUE,,,,,,,,,,,,,1606953601,1606953600
+2020-12-03,7 cudów Pojedynek,,Militarne,,Ja,Korot,,,,,,,,,,,,,,TRUE,,,,,,,,,,,,,1606953600,1606953600
+2020-12-04,Terraformacja Marsa,2:35,,,Ilona,Ja,,,,,,108,105,,,,,,TRUE,,,,,,,,,,,,,,1607040000,1607040000
+2020-12-10,Terraformacja Marsa,3:33,,,Ja,Ilona,Kofin,,,,,72,66,69,,,,,TRUE,,,,,,,,,,,,,,1607558400,1607558400
+2020-12-16,Race for the Galaxy,,,,Ja,Korot,Kofin,,,,,19,34,19,,,,,,TRUE,,,,,,,,,,,,,1608076800,1608076800
+2020-12-24,Brass,1:51,,,Ja,Ilona,,,,,,171,163,,,,,,TRUE,,,,,,,,,,,,,,1608768000,1608768000
+2020-12-25,Caverna,1:30,,,Ja,Ilona,,,,,,58,40,,,,,,TRUE,,,,,,,,,,,,,,1608854400,1608854400
+2020-12-28,Caverna,1:26,,,Ja,Ilona,,,,,,75,50,,,,,,TRUE,,,,,,,,,,,,,,1609113600,1609113600
+2020-12-29,Caverna,2:35,,,Ja,Ilona,Korot,Łysy,,,,74,81,66,66,,,,,TRUE,,,,,,,,,,,,,1609200000,1609200000
+2020-12-30,Caverna,1:08,,,Ja,Ilona,,,,,,72,77,,,,,,,TRUE,,,,,,,,,,,,,1609286400,1609286400
+2021-01-01,Caverna,1:10,,,Ja,Ilona,,,,,,72,73,,,,,,,TRUE,,,,,,,,,,,,,1609459200,1609459200
+2021-01-03,Agricola,,,,Ja,Korot,Łysy,,,,,51,33,41,,,,,TRUE,,,,,,,drewniany -> kamienny dom z karty,,,,,,,1609632000,1609632000
+2021-01-03,Blood Rage,1:40,,,Ja,Korot,Łysy,,,,,187,120,80,,,,,TRUE,,,,,,,,,,,,,,1609632001,1609632000
+2021-01-06,Cyklady,4:00,dodatek Titans + dużo bimbru,,Ja,Ilona,Korot,Żulian,Łysy,,,,,,,,,,,,,,TRUE,,,,,,,,,,1609891200,1609891200
+2021-01-08,Caverna,1:03,,,Ja,Ilona,,,,,,82,76,,,,,,TRUE,,,,,,,,,,,,,,1610064000,1610064000
+2021-01-10,Azul,,,,Ja,Ilona,Łysy,Kofin,,,,53,31,37,25,,,,TRUE,,,,,,,,,,,,,,1610236800,1610236800
+2021-01-10,Azul,,,,Ja,Ilona,Łysy,,,,,52,48,54,,,,,,,TRUE,,,,,,,,,,,,1610236801,1610236800
+2021-01-10,Caverna,2:12,,,Ja,Ilona,Łysy,Kofin,Ola,,,80,72,64,74,50,,,TRUE,,,,,,,,,,,,,,1610236800,1610236800
+2021-01-15,7 cudów Pojedynek,,,,Ja,Ilona,,,,,,58,70,,,,,,,,,,,,,,,,,,,,1610668800,1610668800
+2021-01-16,Terraformacja Marsa,3:08,,,Ja,Ilona,,,,,,101,83,,,,,,TRUE,,,,,,,,,,,,,,1610755200,1610755200
+2021-01-21,Azul,,,,Ja,Ilona,Łysy,Korot,,,,62,43,55,60,,,,TRUE,,,,,,,,,,,,,,1611187200,1611187200
+2021-01-23,Root,,,,Ja,Ilona,Łysy,Korot,,,,,,,,,,,,,,TRUE,,,,ptaki,vagabund bubr,kot,myszy,,,,1611360000,1611360000
+2021-01-24,Caverna,1:10,,,Ja,Ilona,,,,,,71,74,,,,,,,TRUE,,,,,,,,,,,,,1611446400,1611446400
+2021-01-30,Root,,,,Ja,Ilona,Korot,Żulian,,,,,,,,,,,,,TRUE,,,,,Koty,myszy,Ptaki,Szczur złodziej,,,,1611964800,1611964800
+2021-01-30,Root,,,,Ja,Ilona,Korot,Żulian,,,,,,,,,,,,,TRUE,,,,,Ptaki,Koty,Szop wojownik,Myszy,,,,1611964801,1611964800
+2021-02-08,Azul,,,,Ja,Ilona,Łysy,Żulian,,,,62,68,45,66,,,,,TRUE,,,,,,,,,,,,,1612742400,1612742400
+2021-02-08,Azul,,customowa plansza,,Ja,Ilona,Łysy,Żulian,,,,58,52,82,53,,,,,,TRUE,,,,,,,,,,,,1612742401,1612742400
+2021-02-08,Terraformacja Marsa,2:20,,,Ja,Ilona,,,,,,123,120,,,,,,TRUE,,,,,,,,,,,,,,1612742400,1612742400
+2021-02-09,Terraformacja Marsa,2:21,,,Ja,Ilona,Łysy,Żulian,,,,57,55,55,58,,,,,,,TRUE,,,,,,,,,,,1612828800,1612828800
+2021-02-13,Terraformacja Marsa,3:05,,,Ja,Ilona,Łysy,Żulian,,,,65,64,50,30,,,,TRUE,,,,,,,,,,,,,,1613174400,1613174400
+2021-02-13,Caverna,,,,Ja,Ilona,,,,,,69,90,,,,,,,TRUE,,,,,,,,,,,,,1613174401,1613174400
+2021-02-14,Caverna,1:11,,,Ja,Ilona,,,,,,76,70,,,,,,TRUE,,,,,,,,,,,,,,1613260800,1613260800
+2021-02-15,Caverna,,,TRUE,Ja,,,,,,,130,,,,,,,,,,,,,,,,,,,,,1613347200,1613347200
+2021-02-20,Caverna,1:05,,,Ja,Ilona,,,,,,78,65,,,,,,TRUE,,,,,,,,,,,,,,1613779200,1613779200
+2021-02-21,Caverna,,,TRUE,Ja,,,,,,,138,,,,,,,,,,,,,,,,,,,,,1613865600,1613865600
+2021-02-21,Azul,,,,Ja,Ilona,Łysy,Korot,,,,34,54,43,30,,,,,TRUE,,,,,,,,,,,,,1613865601,1613865600
+2021-02-24,Caverna,1:14,,,Ja,Ilona,,,,,,78,85,,,,,,,TRUE,,,,,,,,,,,,,1614124800,1614124800
+2021-02-27,Caverna,4:00,,,Ja,Ilona,Żulian,Paweł,Mona,,,70,80,52,72,54,,,,TRUE,,,,,,,,,,,,,1614384000,1614384000
+2021-03-14,Azul,,customowa plansza,,Ja,Ilona,Łysy,Żulian,,,,74,72,64,45,,,,TRUE,,,,,,,,,,,,,,1615680000,1615680000
+2021-03-14,Caverna,2:02,,,Ja,Ilona,Łysy,Żulian,,,,95,81,73,49,,,,TRUE,,,,,,,,,,,,,,1615680001,1615680000
+2021-03-24,Terraformacja Marsa,,,,Ja,Anita,Karol,,,,,98,70,75,,,,,TRUE,,,,,,,,,,,,,,1616544000,1616544000
+2021-04-01,Terraformacja Marsa,2:20,,,Ja,Ilona,Żulian,,,,,79,64,59,,,,,TRUE,,,,,,,,,,,,,,1617235200,1617235200
+2021-05-01,Everdell,,,,Ja,Ilona,Żulian,,,,,63,52,36,,,,,TRUE,,,,,,,,,,,,,,1619827200,1619827200
+2021-05-05,Root,,,,Ja,Łysy,Korot,Kofin,,,,,,,,,,,TRUE,,,,,,,Bubr,Myszy,Koty,Ptaki,,,,1620172800,1620172800
+2021-05-05,Root,,,,Ja,Łysy,Korot,Kofin,,,,,,,,,,,,,TRUE,,,,,Koty,Zlodziej,Ptaki,Myszy,,,,1620172801,1620172800
+2021-05-13,Race for the Galaxy,,,,Ja,Kofin,,,,,,33,23,,,,,,TRUE,,,,,,,,,,,,,,1620864000,1620864000
+2021-05-15,Race for the Galaxy,,,,Ja,Ilona,Kofin,,,,,27,18,36,,,,,,,TRUE,,,,,,,,,,,,1621036800,1621036800
+2021-05-18,Root,,z dodatkiem Riverfolk,,Ja,Łysy,Korot,Żulian,Kofin,,,,,,,,,,,TRUE,,,,,,Ptaki,Szczur,Jaszczury,Wilk,Bobry,,,1621296000,1621296000
+2021-05-29,Caverna,3:33,,,Ja,Ilona,Żulian,Paweł,,,,130,97,55,78,,,,TRUE,,,,,,,,,,,,,,1622246400,1622246400
+2021-06-04,This War of Mine,,"Katia, Arica, Cveta, Pavle, Marin, Emilia. Plaga szczurów zabrała 4 warzywa i Pavle zszedł z głodu. Poddane w 4 dniu.",TRUE,Ja,,,,,,,,,,,,,,,,,,,,,,,,,,,,1622764800,1622764800
+2021-06-13,Terraformacja Marsa,3:30,,,Ja,Ilona,Anita,Karol,,,,75,67,68,66,,,,TRUE,,,,,,,,,,,,,,1623542400,1623542400
+2021-06-17,Terraformacja Marsa,2:35,,,Ja,Ilona,Żulian,,,,,67,72,52,,,,,,TRUE,,,,,,,,,,,,,1623888000,1623888000
+2021-07-01,Welcome To,0:30,,,Ja,Ilona,,,,,,98,117,,,,,,,TRUE,,,,,,,,,,,,,1625097600,1625097600
+2021-07-04,Everdell,1:01,,,Ja,Ilona,,,,,,57,30,,,,,,TRUE,,,,,,,,,,,,,,1625356800,1625356800
+2021-07-07,Everdell,1:40,,,Ja,Ilona,Łysy,,,,,54,42,45,,,,,TRUE,,,,,,,,,,,,,,1625616000,1625616000
+2021-07-07,Res Arcana,,,,Ja,Łysy,,,,,,10,4,,,,,,TRUE,,,,,,,,,,,,,,1625616001,1625616000
+2021-07-17,Welcome To,,,,Ja,Ilona,Dawid,,,,,72,65,72,,,,,,,TRUE,,,,,,,,,,,,1626480000,1626480000
+2021-08-06,Diuna Imperium,,,,Ja,Korot,Lamdziadek,Żulian,,,,4,12,7,8,,,,,TRUE,,,,,,Paul,Harkonnen,,,,,,1628208000,1628208000
+2021-08-06,Projekt L,,,,Ja,Ilona,,,,,,27,32,,,,,,,TRUE,,,,,,,,,,,,,1628208001,1628208000
+2021-08-07,7 cudów Pojedynek,,,,Ja,Ilona,,,,,,80,45,,,,,,,,,,,,,,,,,,,,1628294400,1628294400
+2021-08-11,Projekt L,0:25,,,Ja,Ilona,,,,,,28,26,,,,,,TRUE,,,,,,,,,,,,,,1628640000,1628640000
+2021-08-12,Projekt L,,,,Ja,Ilona,,,,,,34,27,,,,,,TRUE,,,,,,,,,,,,,,1628726400,1628726400
+2021-08-12,Projekt L,,,,Ja,Ilona,Paweł,Mona,,,,16,18,15,12,,,,,TRUE,,,,,,,,,,,,,1628726401,1628726400
+2021-08-14,Projekt L,,,,Ja,Ilona,,,,,,29,26,,,,,,TRUE,,,,,,,,,,,,,,1628899200,1628899200
+2021-08-23,Projekt L,,,,Ja,Ilona,Maciek,,,,,20,23,22,,,,,,TRUE,,,,,,,,,,,,,1629676800,1629676800
+2021-08-23,Res Arcana,,,,Ja,Ilona,Maciek,,,,,14,9,6,,,,,TRUE,,,,,,,,,,,,,,1629676801,1629676800
+2021-08-26,Kolejowy Szlak,,,,Ja,Ilona,Wujor,,,,,55,41,38,,,,,TRUE,,,,,,,,,,,,,,1629936000,1629936000
+2021-09-12,Welcome To,,,,Ja,Ilona,Paweł,Mona,,,,90,93,78,53,,,,,TRUE,,,,,,,,,,,,,1631404800,1631404800
+2021-09-13,Botanik,0:21,,,Ja,Ilona,,,,,,21,13,,,,,,TRUE,,,,,,,,,,,,,,1631491200,1631491200
+2021-09-13,Botanik,0:23,,,Ja,Ilona,,,,,,30,24,,,,,,TRUE,,,,,,,,,,,,,,1631491201,1631491200
+2021-09-14,Botanik,,,,Ja,Ilona,,,,,,39,22,,,,,,TRUE,,,,,,,,,,,,,,1631577600,1631577600
+2021-09-24,Arnak,1:50,z tłumaczeniem,,Ja,Ilona,,,,,,57,65,,,,,,,TRUE,,,,,,,,,,,,,1632441600,1632441600
+2021-10-02,Mur Hadriana,,łatwy poziom,TRUE,Ja,,,,,,,59,,,,,,,TRUE,,,,,,,,,,,,,,1633132800,1633132800
+2021-10-03,Arnak,1:00,,,Ja,Ilona,,,,,,78,59,,,,,,TRUE,,,,,,,,,,,,,,1633219200,1633219200
+2021-10-06,Arnak,,,,Ja,Ilona,Maciek,Kamil,,,,63,62,56,65,,,,,,,TRUE,,,,,,,,,,,1633478400,1633478400
+2021-10-17,Caverna,1:22,,,Ja,Ilona,,,,,,101,90,,,,,,TRUE,,,,,,,,,,,,,,1634428800,1634428800
+2021-10-24,Gloomhaven,2:00,"Scenariusz 60, Misiek odchodzi na emeryturę. Karkówa(6), Złodziej(7), Misiek(8)",TRUE,Ja,,,,,,,,,,,,,,TRUE,,,,,,,,,,,,,,1635033600,1635033600
+2021-11-04,Załoga Głębiny,,"11 gier, 6 wygranych, max poziom 7",,Ja,Ilona,Kasia Tricamp,Ola Tricamp,,,,,,,,,,,,,,,,,,,,,,,,,1635984000,1635984000
+2021-11-11,Summoner Wars,,,,Ja,Ilona,,,,,,,,,,,,,TRUE,,,,,,,Tundrowe Orki,Płomienne Elfy,,,,,,1636588800,1636588800
+2021-11-13,Summoner Wars,1:04,,,Ja,Ilona,,,,,,,,,,,,,,TRUE,,,,,,Jaskiniowe Gobliny,Straż Przednia,,,,,,1636761600,1636761600
+2021-12-11,Everdell,,,,Ja,Ilona,Rafał Omelko,Gosia Omelko,,,,73,58,50,40,,,,TRUE,,,,,,,,,,,,,,1639180800,1639180800
+2021-12-31,Diuna Imperium,4:24,8 runda finisz,,Ja,Ilona,Random internet ziomek,Anastazja Sylwester,,,,5,7,11,3,,,,,FALSE,TRUE,FALSE,,,,Paul Atryda,Bestia,Thorwald,,,,,1640908800,1640908800
+2022-01-09,Diuna Imperium,,"Maciej grał do końca 2 rundy, potem wszedł Hagal",,Ja,Ilona,Maciek,,,,,10,7,,,,,,TRUE,,,,,,,,,,,,,,1641686400,1641686400
+2022-01-16,Diuna Imperium,1:48,,,Ja,Ilona,Maciek,,,,,11,11,6,,,,,TRUE,,,,,,,Ariana Thorvald,Earl Thorvald,Helena Richese,,,,,1642291200,1642291200
+2022-02-01,Scythe,,Początek oszukany - typ nosił ziomków. Najłatwieszy poziom trudności.,TRUE,Ja,Automa,,,,,,78,47,,,,,,TRUE,,,,,,,Krym / Przemysł,,,,,,,1643673600,1643673600
+2022-02-18,Aeons End,1:25,Oszukane :),,Ja,Ilona,,,,,,,,,,,,,TRUE,TRUE,,,,,,Arelheim,Mist,,,,,,1645142400,1645142400
+2022-02-19,Aeons End,1:20,Gnieworodny norm / 17 hp left miasto,,Ja,Ilona,,,,,,5,5,,,,,,TRUE,TRUE,,,,,,Brima,Mist,,,,,,1645228800,1645228800
+2022-03-05,Aeons End,1:38,Królowa roju norm / Gravehold - 15. Kombo z Arka Chaosu i podwójnymi kartami Kadir - 46 dmg w 1 turze,,Ja,Ilona,,,,,,5,0,,,,,,TRUE,TRUE,,,,,,Kadir,Jian,,,,,,1646438400,1646438400
+2022-03-06,Botanik,,,,Ja,Ilona,,,,,,24,24,,,,,,TRUE,FALSE,,,,,,,,,,,,,1646524800,1646524800
+2022-03-11,Everdell,,,,Ja,Ilona,Łukasz Hansi,Dosia Lipka,,,,65,68,52,46,,,,FALSE,TRUE,,,,,,,,,,,,,1646956800,1646956800
+2022-03-11,Projekt L,,,,Ja,Ilona,Łukasz Lipka,Dosia Lipka,,,,15,15,17,10,,,,,,TRUE,,,,,,,,,,,,1646956801,1646956800
+2022-04-11,Projekt L,,,,Ja,Ilona,,,,,,,,,,,,,,,,,,,,,,,,,,,1649635200,1649635200
+2022-04-15,Kaskadia,,,TRUE,Ja,,,,,,,91,,,,,,,,FALSE,,,,,,,,,,,,,1649980800,1649980800
+2022-04-17,Kaskadia,,,,Ja,Ilona,,,,,,100,88,,,,,,TRUE,,,,,,,,,,,,,,1650153600,1650153600
+2022-04-17,Kaskadia,,,,Ja,Ilona,,,,,,100,,,,,,,TRUE,,,,,,,,,,,,,,1650153601,1650153600
+2022-04-17,Kaskadia,,,,Ja,Ilona,,,,,,95,83,,,,,,TRUE,,,,,,,,,,,,,,1650153600,1650153600
+2022-04-18,Kaskadia,,,,Ja,Ilona,,,,,,95,95,,,,,,TRUE,TRUE,,,,,,,,,,,,,1650240000,1650240000
+2022-04-21,Mur Hadriana,,Fort 1,TRUE,Ja,,,,,,,63,,,,,,,,,,,,,,,,,,,,,1650499200,1650499200
+2022-04-22,Mur Hadriana,,Fort 1 ,TRUE,Ja,,,,,,,79,,,,,,,TRUE,,,,,,,Pełny zwiad. Wszystko po lewej stronie zapełnione,,,,,,,1650585600,1650585600
+2022-04-23,Aeons End,,Książę pożeraczy norm. Win bardzo na granicy,,Ja,Ilona,,,,,,,,,,,,,TRUE,TRUE,,,,,,Kadir,Lash,,,,,,1650672000,1650672000
+2022-04-24,Arnak,,,,Ja,Ilona,Rafał,Gosia,,,,81,61,62,60,,,,TRUE,,,,,,,,,,,,,,1650758400,1650758400
+2022-04-24,Projekt L,,,,Ja,Ilona,Rafał,Gosia,,,,20,21,16,13,,,,,TRUE,,,,,,,,,,,,,1650758401,1650758400
+2022-04-30,Cyklady,,"Po 2 przerwaliśmy gierke, mocna alkoholizacja",,Ja,Ilona,Pioterek,Dżamro,Ola Dżamra,,,,,,,,,,,,,,,,,,,,,,,,1651276800,1651276800
+2022-05-01,Cyklady,1:35,Pioterek wygrał z przyczajki,,Ja,Ilona,Pioterek,Dżamro,Ola Dżamra,,,,,,,,,,,,TRUE,,,,,,,,,,,,1651363200,1651363200
+2022-05-29,Arnak,,,,Ja,Ilona,Rafał,Gosia,,,,95,63,84,61,,,,TRUE,,,,,,,Profesor,Hrabina,Sokolniczka,Lider,,,,1653782400,1653782400
+2022-06-17,Arnak,,,,Ja,Ilona,,,,,,,,,,,,,,,,,,,,,,,,,,,1655424000,1655424000
+2022-06-26,Great Western Trail,,,,Ja,Wojtek Fb,Janek Fb,,,,,63,58,54,,,,,TRUE,,,,,,,,,,,,,,1656201600,1656201600
+2022-07-03,Res Arcana,,,,Ja,Wojtek Fb,Janek Fb,,,,,3,10,3,,,,,,TRUE,,,,,,,,7 gotowe do wymiany,,,,,1656806400,1656806400
+2022-07-05,O mój Zboże,,,,Ja,Ilona,,,,,,24,24,,,,,,,TRUE,,,,,,0 gold,1 gold,,,,,,1656979200,1656979200
+2022-07-30,Terraformacja Marsa,2:12,,,Ja,Ilona,,,,,,97,99,,,,,,,TRUE,,,,,,,,,,,,,1659139200,1659139200
+2022-07-31,Brzdęk,,,,Ja,Ilona,Hania,Łukasz Do,,,,69,65,84,57,,,,,,TRUE,,,,,,,,martwy,,,,1659225600,1659225600
+2022-07-31,Załoga Głębiny,,"5W, 6W, 7W, 8W, 9W, 10L, 10W",,Ja,Ilona,Łukasz Do,Hania,,,,,,,,,,,,,,,,,,,,,,,,,1659225601,1659225600
+2022-08-02,Terraformacja Marsa,3:48,,,Ja,Ilona,Łukasz Do,Hania,,,,53,50,60,55,,,,,,TRUE,,,,,,,,,,,,1659398400,1659398400
+2022-08-03,Załoga Głębiny,,"11W, 12L, 12W",,Ja,Ilona,Łukasz Do,Hania,,,,,,,,,,,,,,,,,,,,,,,,,1659484800,1659484800
+2022-08-06,Diuna Imperium,1:51,3,,Ja,Ilona,,,,,,13,8,,,,,,TRUE,,,,,,,Rhombus Vernius,Yora Moritani,,,,,,1659744000,1659744000
+2022-08-21,O mój Zboże,,,,Ja,Ilona,Dawid,,,,,24,19,15,,,,,TRUE,,,,,,,"Oszukane, ciągnąłem za gildie kupców cały czas 3 karty",,,,,,,1661040000,1661040000
+2022-08-23,O mój Zboże,,,,Ja,Ilona,Dawid,,,,,23,18,21,,,,,TRUE,,,,,,,,,,,,,,1661212800,1661212800
+2022-08-30,O mój Zboże,0:31,,,Ja,Ilona,,,,,,20,21,,,,,,,TRUE,,,,,,,,,,,,,1661817600,1661817600
+2022-09-09,Scythe,,,,Ja,Ilona,Żulian,,,,,88,42,44,,,,,TRUE,,,,,,,,,,,,,,1662681600,1662681600
+2022-09-11,Imperium Antyk,,Totalnie oszukane,TRUE,Ja,Automa,,,,,,72,34,,,,,,TRUE,,,,,,,,,,,,,,1662854400,1662854400
+2022-09-13,Imperium Antyk,1:40,Setup z 20 minut plus podliczenie 20,TRUE,Ja,Automa,,,,,,77,68,,,,,,TRUE,,,,,,,Rzym,Persowie,,,,,,1663027200,1663027200
+2022-09-13,Clash of Cultures,2:40,,,Ja,Ilona,Rafał Omelko,,,,,36,"34,5","18,5",,,,,TRUE,,,,,,,,,,,,,,1663027201,1663027200
+2022-09-23,Viticulture,2:40,,,Ja,Ilona,Monika Pawlińska,Maciek Pawlinski,,,,25,18,9,9,,,,TRUE,,,,,,,,,2 hajsu,5 hajsu,,,,1663891200,1663891200
+2022-09-24,Brass,2:46,,,Ja,Ilona,Maciek Pawlinski,,,,,188,152,121,,,,,TRUE,,,,,,,,,,,,,,1663977600,1663977600
+2022-10-15,Everdell,2:05,Rafał wystawił królową w 1 porze roku (przez karczmarza). Wielki value z początkowego sklepikarza.,,Ja,Ilona,Rafał,Gosia,,,,55,56,74,56,,,,,FALSE,,,,,,,,,,,,,1665792000,1665792000
+2022-10-23,Aeons End,1:40,"Maska kłamstw norm / 10 hp, oboje graczy wyczerpanych",,Ja,Ilona,,,,,,,,,,,,,TRUE,TRUE,,,,,,Z'hana,Jian,,,,,,1666483200,1666483200
+2022-10-29,Res Arcana,,"default 1, 2, 3",,Ja,Żulian,Rafał Kasi,,,,,13,4,3,,,,,TRUE,,,,,,,,,,,,,,1667001600,1667001600
+2022-10-30,Res Arcana,,Z dodatkiem,,Ja,Żulian,,,,,,11,8,,,,,,TRUE,,,,,,,11 punktów w 1 ture przez Atanora (15 golda),,,,,,,1667088000,1667088000
+2022-11-01,Res Arcana,0:35,Z dodatkiem,,Ja,Żulian,,,,,,11,8,,,,,,TRUE,,,,,TRUE,,,,,,,,,1667260800,1667260800
+2022-11-20,Everdell,,z dodatkiem Spirecrest,,Ja,Ilona,Rafał,Gosia,,,,73,64,73,61,,,,TRUE,,,,,,,,,,,,,,1668902400,1668902400
+2022-11-25,Caverna,,,,Ja,Gutek,Ewa Gutek,,,,,79,50,63,,,,,TRUE,,,,,,,,,,,,,,1669334400,1669334400
+2022-12-09,Diuna Imperium,1:50,z dodatkiem,,Ja,Ilona,Maciek,,,,,6,8,11,,,,,,,TRUE,,,,,,,,,,,,1670544000,1670544000
+2022-12-16,Atiwa,,,,Ja,Ilona,Łukasz Hansi,Dosia Lipka,,,,90,90,84,86,,,,,TRUE,,,,,,,mniej zanieczyszczeń,,,,,,1671148800,1671148800
+2022-12-17,Ark Nova,2:05,Strona A,,Ja,Ilona,,,,,,6,6,,,,,,TRUE,,,,,,,więcej ochrony przyrody (4 vs 3),zestaw startowy 1,,,,,,1671235200,1671235200
+2022-12-24,Brass,3:00,,,Ja,Ilona,Maciek,,,,,124,138,119,,,,,FALSE,,,,,,,"debil. pobierał 3 razy po 15 pozyczki ,zamiast 30",138,119,,,,,1671840000,1671840000
+2022-12-31,Kolejowy Szlak,,,,Ja,Ilona,,,,,,53,49,,,,,,TRUE,,,,,,,,,,,,,,1672444800,1672444800
+2023-01-06,Wojna o Pierścień ,5:00,frodo ulegl zepsuciu przy wchodzeniu do szczeliny zaglady,,Ja,Rafał,,,,,,,,,,,,,,TRUE,,,,,,,,,,,,,1672963200,1672963200
+2023-01-07,Turbo,,"Usa. pierwsza gra, 1 okrazenie",,Ja,Ilona,Kofin,Czina,,,,4,3,1,2,,,,,,TRUE,,,,,,,,,,,,1673049600,1673049600
+2023-01-07,Turbo,,Italy,,Ja,Ilona,Kofin,Czina,,,,2,4,1,3,,,,,,TRUE,,,,,,,,,,,,1673049601,1673049600
+2023-01-21,Ark Nova,2:40,,,Ja,Grzesiek,Natalia,,,,,26,12,-5,,,,,TRUE,,,,,,,Mapa 0,Mapa A,Mapa A,,,,,1674259200,1674259200
+2023-01-21,Park niedźwiedzi,,,,Ja,Grzesiek,Natalia,,,,,79,82,80,,,,,,TRUE,,,,,,,,,,,,,1674259201,1674259200
+2023-01-29,Nemesis,,"Koop. Win cudem. Ja umarłem, Ilonka się ewakuowała w kapsule.",,Ja,Ilona,,,,,,,,,,,,,TRUE,TRUE,,,,,,Naukowiec,Żołnież. ,,,,,,1674950400,1674950400
+2023-01-03,Gloomhaven Szczęki Lwa,,3 pierwsze scenariusze,,Ja,Ilona,,,,,,,,,,,,,TRUE,TRUE,,,,,,,,,,,,,1672704000,1672704000
+2023-02-10,Res Arcana,1:30,,,Ja,Łysy,Żulian,,,,,10,12,10,,,,,,TRUE,,,,,,,,,,,,,1675987200,1675987200
+2023-02-11,Turbo,,1 okrążenie USA,,Ja,Łysy,Żulian,Pioterek,,,,,,,,,,,TRUE,,,,,,,1,4,3,2,,,,1676073600,1676073600
+2023-02-11,Res Arcana,0:57,,,Ja,Łysy,Żulian,Pioterek,,,,15,9,6,4,,,,TRUE,,,,,,,,,,,,,,1676073601,1676073600
+2023-02-19,Terraformacja Marsa,3:04,,,Ja,Ilona,Natalia,Grzesiek,,,,72,63,56,61,,,,TRUE,,,,,,,,,,,,,,1676764800,1676764800
+2023-03-04,Dominant Species,2:30,,,Ja,Ilona,Grzesiek,Natalia,,,,99,55,99,89,,,,TRUE,,,,,,,,,,,,,,1677888000,1677888000
+2023-03-04,Projekt L,,,,Ja,Ilona,Grzesiek,Natalia,,,,21,18,16,13,,,,TRUE,,,,,,,,,,,,,,1677888001,1677888000
+2023-03-04,Projekt L,,,,Ja,Ilona,Grzesiek,Natalia,,,,18,16,18,13,,,,,,TRUE,,,,,,,,,,,,1677888000,1677888000
+2023-03-04,Projekt L,,,,Ja,Ilona,Grzesiek,Natalia,,,,22,17,19,18,,,,TRUE,,,,,,,,,,,,,,1677888001,1677888000
+2023-03-09,Caverna,2:20,,,Ja,Gutek,Ewa Gutek,,,,,84,70,53,,,,,TRUE,,,,,,,,,,,,,,1678320000,1678320000
+2023-03-10,Radlands,,,,Ja,Ilona,,,,,,,,,,,,,,TRUE,,,,,,,,,,,,,1678406400,1678406400
+2023-03-10,Radlands,,,,Ja,Ilona,,,,,,,,,,,,,TRUE,,,,,,,,,,,,,,1678406401,1678406400
+2023-03-12,Podwodne Miasta,3:00,,,Ja,Wojtek Fb,Michał Fb,Piotrek Fb,,,,102,97,96,86,,,,TRUE,,,,,,,Zastosowana OP taktyka z BGG mass algi :),,,,,,,1678579200,1678579200
+2023-03-12,Radlands,0:22,,,Ja,Ilona,,,,,,,,,,,,,,TRUE,,,,,,,,,,,,,1678579201,1678579200
+2023-03-16,Caverna,2:00,"Frantic friends. Oszukane, brzydko, wynik do śmieci. Łatwy poziom. Pierwsze dziecko zrobione na raz z pokojem. ",TRUE,Ja,,,,,,,96,,,,,,,TRUE,,,,,,,,,,,,,,1678924800,1678924800
+2023-03-19,Radlands,0:31,,,Ja,Ilona,,,,,,,,,,,,,TRUE,,,,,,,,,,,,,,1679184000,1679184000
+2023-03-19,Dominant Species,,,,Ja,Ilona,Natalia,Grzesiek,,,,92,74,104,112,,,,,,,TRUE,,,,,,,,,,,1679184001,1679184000
