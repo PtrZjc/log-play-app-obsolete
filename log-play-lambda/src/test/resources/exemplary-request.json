@@ -1,0 +1,44 @@
+{
+  "gamesLog": [
+    {
+      "timestamp": 1582156800,
+      "gameName": "First game",
+      "gameDate": "2020-02-20",
+      "playerResults": [
+        {
+          "playerName": "First player",
+          "playerScore": 10,
+          "isWinner": true
+        },
+        {
+          "playerName": "Second player",
+          "playerScore": 5
+        },
+        {
+          "playerName": "Third player",
+          "playerScore": 3
+        }
+      ]
+    },
+    {
+      "timestamp": 1582156801,
+      "gameName": "First game",
+      "gameDate": "2020-02-20",
+      "playerResults": [
+        {
+          "playerName": "First player",
+          "playerScore": 3
+        },
+        {
+          "playerName": "Second player",
+          "playerScore": 5
+        },
+        {
+          "playerName": "Third player",
+          "playerScore": 10,
+          "isWinner": true
+        }
+      ]
+    }
+  ]
+}
