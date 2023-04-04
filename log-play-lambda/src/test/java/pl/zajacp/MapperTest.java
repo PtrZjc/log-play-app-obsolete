@@ -6,19 +6,18 @@ import org.junit.jupiter.api.Test;
 import java.io.IOException;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static pl.zajacp.TestUtils.EXEMPLARY_REQUEST;
 
 public class MapperTest {
+
 
     private final ObjectMapper MAPPER = new ObjectMapper();
 
 
     @Test
     void shouldProperlyMapRequestToDomain() throws IOException {
-        //given
-        String request = new String(getClass().getClassLoader().getResourceAsStream("exemplary-request.json").readAllBytes());
-
         //when
-        GamesLog gamesLog = MAPPER.readValue(request, GamesLog.class);
+        GamesLog gamesLog = MAPPER.readValue(EXEMPLARY_REQUEST, GamesLog.class);
 
         //then
         assertEquals(2, gamesLog.getGamesLog().size());

@@ -58,3 +58,5 @@
 */.idea/*
 */tokens/*
 **/credentials.json
+
+**/target/*

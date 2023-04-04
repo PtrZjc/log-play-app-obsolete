@@ -3,7 +3,10 @@
     {
       "timestamp": 1582156800,
       "gameName": "First game",
-      "gameDate": "2020-02-20",
+      "solo": true,
+      "gameDescription": "k",
+      "duration" : "asd",
+      "gameDate": "2022-02-20",
       "playerResults": [
         {
           "playerName": "First player",
@@ -22,7 +25,7 @@
     },
     {
       "timestamp": 1582156801,
-      "gameName": "First game",
+      "gameName": "Second game",
       "gameDate": "2020-02-20",
       "playerResults": [
         {
