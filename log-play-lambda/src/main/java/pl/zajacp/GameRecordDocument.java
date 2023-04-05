@@ -1,6 +1,7 @@
 package pl.zajacp;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -9,23 +10,13 @@ import software.amazon.awssdk.enhanced.dynamodb.mapper.annotations.DynamoDbBean;
 import software.amazon.awssdk.enhanced.dynamodb.mapper.annotations.DynamoDbPartitionKey;
 import software.amazon.awssdk.enhanced.dynamodb.mapper.annotations.DynamoDbSortKey;
 
-import java.math.BigDecimal;
-import java.util.List;
-
 @Getter
 @Setter
-@NoArgsConstructor
 @ToString
+@NoArgsConstructor
+@AllArgsConstructor
 @DynamoDbBean
-public class GamesLog {
-    private List<GameRecord> gamesLog;
-}
-
-@Getter
-@Setter
-@NoArgsConstructor
-@ToString
-class GameRecord {
+public class GameRecordDocument {
 
     private Long timestamp;
     private String gameName;
@@ -33,7 +24,7 @@ class GameRecord {
     private String gameDescription;
     private boolean solo;
     private String duration;
-    private List<PlayerResult> playerResults;
+    private String playerResults;
 
     @DynamoDbPartitionKey
     public String getGameName() {
@@ -44,16 +35,16 @@ class GameRecord {
     public Long getTimestamp() {
         return timestamp;
     }
-}
 
-@Getter
-@Setter
-@NoArgsConstructor
-@ToString
-class PlayerResult {
-    private String playerName;
-    private BigDecimal playerScore;
-    @JsonProperty("isWinner")
-    private boolean isWinner;
-    private String comment;
+    public static GameRecordDocument fromDomain(GameRecord gameRecord, String playerResults) {
+        return new GameRecordDocument(
+                gameRecord.getTimestamp(),
+                gameRecord.getGameName(),
+                gameRecord.getGameDate(),
+                gameRecord.getGameDescription(),
+                gameRecord.isSolo(),
+                gameRecord.getDuration(),
+                playerResults
+        );
+    }
 }

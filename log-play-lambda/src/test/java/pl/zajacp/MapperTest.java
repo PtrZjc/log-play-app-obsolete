@@ -13,13 +13,12 @@ public class MapperTest {
 
     private final ObjectMapper MAPPER = new ObjectMapper();
 
-
     @Test
     void shouldProperlyMapRequestToDomain() throws IOException {
         //when
         GamesLog gamesLog = MAPPER.readValue(EXEMPLARY_REQUEST, GamesLog.class);
 
         //then
-        assertEquals(2, gamesLog.getGamesLog().size());
+        assertEquals(199, gamesLog.getGamesLog().size());
     }
 }
