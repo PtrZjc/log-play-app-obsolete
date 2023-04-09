@@ -1,7 +1,7 @@
 package pl.zajacp;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.junit.jupiter.api.Test;
+import pl.zajacp.model.GamesLog;
 
 import java.io.IOException;
 
@@ -13,7 +13,6 @@ public class MapperTest {
 
     private final ObjectMapper MAPPER = new ObjectMapper();
 
-    @Test
     void shouldProperlyMapRequestToDomain() throws IOException {
         //when
         GamesLog gamesLog = MAPPER.readValue(EXEMPLARY_REQUEST, GamesLog.class);

@@ -1,83 +1,64 @@
 package pl.zajacp;
 
-import com.amazonaws.services.lambda.runtime.Context;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.SneakyThrows;
 import org.apache.commons.collections4.ListUtils;
-import software.amazon.awssdk.enhanced.dynamodb.DynamoDbEnhancedClient;
-import software.amazon.awssdk.enhanced.dynamodb.DynamoDbTable;
+import pl.zajacp.model.GameRecord;
+import pl.zajacp.model.GamesLog;
 import software.amazon.awssdk.enhanced.dynamodb.TableSchema;
-import software.amazon.awssdk.enhanced.dynamodb.model.BatchWriteItemEnhancedRequest;
-import software.amazon.awssdk.enhanced.dynamodb.model.PutItemEnhancedRequest;
-import software.amazon.awssdk.enhanced.dynamodb.model.WriteBatch;
+import software.amazon.awssdk.regions.Region;
 import software.amazon.awssdk.services.dynamodb.DynamoDbClient;
+import software.amazon.awssdk.services.dynamodb.model.BatchWriteItemRequest;
+import software.amazon.awssdk.services.dynamodb.model.PutItemRequest;
+import software.amazon.awssdk.services.dynamodb.model.PutRequest;
+import software.amazon.awssdk.services.dynamodb.model.WriteRequest;
 
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
 public class GameLogRepository {
 
-    //todo make sure the items are overriden
+    //https://github.com/aws/aws-sdk-java-v2/issues/2265
 
-    TableSchema<GameRecordDocument> gameLogTableSchema = TableSchema.fromBean(GameRecordDocument.class);
+    private final TableSchema<GameRecord> gameLogTableSchema = TableSchema.fromBean(GameRecord.class);
 
-    private final DynamoDbTable<GameRecordDocument> table;
-    private final DynamoDbEnhancedClient enhancedClient;
+    private final String tableName;
+    private final DynamoDbClient client = DynamoDbClient.builder().region(Region.EU_CENTRAL_1).build();
 
-    private final ObjectMapper MAPPER = new ObjectMapper();
-
-    public Context context;
-
-    public GameLogRepository(DynamoDbClient dynamoDbClient, String tableName) {
-        enhancedClient = DynamoDbEnhancedClient.builder()
-                .dynamoDbClient(dynamoDbClient)
-                .build();
-        table = enhancedClient
-                .table(tableName, TableSchema.fromBean(GameRecordDocument.class));
+    public GameLogRepository(String tableName) {
+        this.tableName = tableName;
     }
 
-    public void putGameRecord(GameRecord gameRecord) {
-        var putRequest = PutItemEnhancedRequest
-                .builder(GameRecordDocument.class)
-                .item(getGameRecordDocument(gameRecord))
-                .build();
-        table.putItem(putRequest);
+    public String putGamesLog(GamesLog gamesLog) {
+        return gamesLog.getGamesLog().size() == 1
+                ? putGameRecord(gamesLog.getGamesLog().get(0))
+                : batchPutGameRecords(gamesLog.getGamesLog());
     }
 
-    public void putGamesLog(GamesLog gamesLog) {
-        var records = gamesLog.getGamesLog()
+    public String putGameRecord(GameRecord gameRecord) {
+        var map = gameLogTableSchema.itemToMap(gameRecord, true);
+        var put = PutItemRequest.builder().tableName(tableName).item(map).build();
+        return client.putItem(put).toString();
+    }
+
+    private String batchPutGameRecords(List<GameRecord> items) {
+        var batchWriteResponses = ListUtils.partition(items, 25)
                 .stream()
-                .map(this::getGameRecordDocument)
+                .map(this::mapToBatchWriteRequest)
+                .map(client::batchWriteItem)
                 .collect(Collectors.toList());
-        batchPutGameRecords(records);
+
+        return batchWriteResponses.toString();
     }
 
-    @SneakyThrows
-    private GameRecordDocument getGameRecordDocument(GameRecord g) {
-        return GameRecordDocument.fromDomain(g, MAPPER.writeValueAsString(g.getPlayerResults()));
-    }
+    private BatchWriteItemRequest mapToBatchWriteRequest(List<GameRecord> recordBatch) {
+        var putRequests = recordBatch.stream()
+                .map(i -> gameLogTableSchema.itemToMap(i, true))
+                .map(m -> PutRequest.builder().item(m).build())
+                .map(p -> WriteRequest.builder().putRequest(p).build())
+                .collect(Collectors.toList());
 
-    private void batchPutGameRecords(List<GameRecordDocument> items) {
-        ListUtils.partition(items, 25)
-                .stream()
-                .map(SingleGameRecordDocumentWriteBatch::new)
-                .map(SingleGameRecordDocumentWriteBatch::getWriteBatch)
-                .map(wb -> BatchWriteItemEnhancedRequest.builder().addWriteBatch(wb).build())
-                .forEach(enhancedClient::batchWriteItem);
-    }
-
-    @Getter
-    @AllArgsConstructor
-    private class SingleGameRecordDocumentWriteBatch {
-        private final WriteBatch writeBatch;
-        public SingleGameRecordDocumentWriteBatch(List<GameRecordDocument> items) {
-            var writeBatchBuilder = WriteBatch
-                    .builder(GameRecordDocument.class)
-                    .mappedTableResource(table);
-            items.forEach(writeBatchBuilder::addPutItem);
-            this.writeBatch = writeBatchBuilder.build();
-        }
+        return BatchWriteItemRequest.builder()
+                .requestItems(Collections.singletonMap(tableName, putRequests))
+                .build();
     }
 }
