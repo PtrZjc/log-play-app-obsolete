@@ -4,10 +4,12 @@ import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
 import pl.zajacp.model.GameRecord;
 import pl.zajacp.model.GamesLog;
+import pl.zajacp.repository.DynamoDbRepository;
 
 public class PutGamesLogHandler implements RequestHandler<GamesLog, String> {
 
-    private final DynamoDbRepository<GameRecord> gameItemRepository = new DynamoDbRepository<>("games_log", GameRecord.class);
+    private final DynamoDbRepository<GameRecord> gameItemRepository =
+            new DynamoDbRepository<>("games_log", GameRecord.class);
 
     @Override
     public String handleRequest(GamesLog gamesLog, Context context) {

@@ -18,7 +18,7 @@
 */yarn-debug.log*
 */yarn-error.log*
 
-*/target/
+*/target*
 **/*.jar
 **/.gradle/*
 **/gradle/*
@@ -56,6 +56,6 @@
 */tokens/*
 **/credentials.json
 
-**/target/
+**/target/*
 
 temp/*
